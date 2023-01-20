@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "server-che"
+version = "0.1.0"
+description = "a quick test to play with multi-project che workspaces"
+authors = ["Salim Kayal <salim.kayal@idiap.ch>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.89.1"
+uvicorn = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
